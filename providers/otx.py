@@ -1,6 +1,6 @@
 from typing import Optional, Dict
-from ..utils.http import Http
-from ..utils.cache import Cache
+from utils.http import Http
+from utils.cache import Cache
 from . import provider_name
 
 OTX_BASE = "https://otx.alienvault.com/api/v1"
