@@ -1,1 +1,9 @@
+[providers]
+virustotal = "YOUR_VT_API_KEY"
+otx = "YOUR_OTX_API_KEY"
+abuseipdb = "YOUR_ABUSEIPDB_API_KEY"
 
+[engine]
+timeout = 15
+retries = 3
+backoff = 1.5
